@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+body,head {
+    font-family: "Lugrasimo", cursive !important;
+    background-color: gray!important;
+  }
+  .header
+  {
+    background-color: #f6f6f6 !important;
+  }
+  #head-icon
+  {
+    height:100px;
+  }
+  .card-img
+  {
+    width:200px;
+    height:300px;
+  }
+  .card-body,p
+  {
+    color:blue;
+    font-weight: bold;
+  }
+  .card:hover
+  {
+    transform: scale(1.1); 
+  }
