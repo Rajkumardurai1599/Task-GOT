@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 
 body,head {
-    font-family: "Lugrasimo", cursive !important;
+    
     background-color: gray!important;
   }
   .header
   {
-    background-color: #f6f6f6 !important;
+    background-color: white !important;
   }
   #head-icon
   {
@@ -19,7 +19,7 @@ body,head {
   }
   .card-body,p
   {
-    color:blue;
+    color:rgb(196, 9, 9);
     font-weight: bold;
   }
   .card:hover

@@ -21,11 +21,11 @@ response.then((data)=>data.json())
     {  
         const totalcount=ele.length;
         const a=document.createElement("div");
-        a.classList="col-lg-3 col-sm-12 col-md-lg-6 mx-lg-5 my-3 ";
+        a.classList=" col-sm-6 col-md-4 col-lg-4 col-xl-4 my-lg-3";
         a.innerHTML=`
         <div class="card ss bg-black  border">
         <img src=${ele[i].imageUrl} class="card-img" alt="...">
-        <div class="card-body my-3 ">
+        <div class="card h-100 ss">
         <p>Name : ${ele[i].fullName}</p>
         <p>Family : ${ele[i].family}</p>
         <p>Title : ${ele[i].title}
